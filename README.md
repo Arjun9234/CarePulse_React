@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank">
-    <img src="https://github.com/Arjun9234/healthcare/assets/banner-image" alt="Project Banner">
+    <img src="https://github.com/Arjun9234/CarePulse_React/blob/master/public/assets/images/onboarding-img.png" alt="Project Banner">
   </a>
   <br />
   <div>
@@ -124,11 +124,10 @@ Database Structure: Adjust Appwrite database collections to fit specific require
 ### Error Tracking:
 ![Error Tracking](https://github.com/user-attachments/assets/930b66d0-da71-401d-aa14-b3d4d0ca97a7)
 
-
-
-🔗 Contact
+🔗 Contact  
 Feel free to reach out for collaboration or feedback!
 
-Email: arjunarora3682@gmail.com
-LinkedIn: arjun2204
-GitHub: Arjun9234
+- [Email](mailto:arjunarora3682@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/arjun2204)
+- [GitHub](https://github.com/Arjun9234)
+
