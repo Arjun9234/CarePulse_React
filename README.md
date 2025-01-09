@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank">
-    <img src="https://github.com/Arjun9234/CarePulse_React/blob/master/public/assets/images/onboarding-img.png" alt="Project Banner">
+    <img src="https://github.com/Arjun9234/healthcare/assets/banner-image" alt="Project Banner">
   </a>
   <br />
   <div>
@@ -73,16 +73,19 @@ Ensure you have the following installed:
 
 ### Setup:
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/Arjun9234/healthcare.git
    cd healthcare
-2.**Install Dependencies:**
+2. **Install Dependencies:**
+
 ```bash
-  npm install
+npm install
 ```
-3. **Configure Environment Variables:**
-Create a .env.local file in the project root:
-```
+
+3. **Configure Environment Variables: Create a .env.local file in the project root:**
+
+```bash
 NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
 PROJECT_ID=your_project_id
 API_KEY=your_api_key
@@ -92,23 +95,35 @@ APPOINTMENT_COLLECTION_ID=your_appointment_collection_id
 NEXT_PUBLIC_BUCKET_ID=your_bucket_id
 NEXT_PUBLIC_ADMIN_PASSKEY=your_admin_passkey
 ```
+
 4. **Run the Project:**
 
-   ```
-   npm run dev
-   ```
+```bash
+npm run dev
+```
 
-Open http://localhost:3000 to view my project.
+Open http://localhost:3000 to view the project.
+
 
 🛠️ Customization
 UI Design: TailwindCSS utilities for custom styling.
 SMS Configuration: Update Twilio settings for SMS notifications.
 Database Structure: Adjust Appwrite database collections to fit specific requirements.
-📷 Screenshots
-Patient Dashboard
 
+## 📷 Screenshots
 
-Admin Panel
+### Patient Dashboard:
+![Patient Dashboard](https://github.com/user-attachments/assets/0a8ea3b5-5213-455b-a951-0c8ec13761c9)
+
+### Admin Panel:
+![Admin Panel](https://github.com/user-attachments/assets/6f3c9f81-0adf-4437-9c85-41966368bfdf)
+
+### Appointment Booking:
+![Appointment Booking](https://github.com/user-attachments/assets/541affe7-836b-4023-9a09-dde7e95f50b3)
+
+### Error Tracking:
+![Error Tracking](https://github.com/user-attachments/assets/930b66d0-da71-401d-aa14-b3d4d0ca97a7)
+
 
 
 🔗 Contact
@@ -117,5 +132,3 @@ Feel free to reach out for collaboration or feedback!
 Email: arjunarora3682@gmail.com
 LinkedIn: arjun2204
 GitHub: Arjun9234
-
-
