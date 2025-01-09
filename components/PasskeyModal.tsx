@@ -35,14 +35,15 @@ export const PasskeyModal = () => {
   useEffect(() => {
     const accessKey = encryptedKey && decryptKey(encryptedKey);
 
-    if (path)
+    if (path) {
       if (accessKey === process.env.NEXT_PUBLIC_ADMIN_PASSKEY!.toString()) {
         setOpen(false);
         router.push("/admin");
       } else {
         setOpen(true);
       }
-  }, [encryptedKey]);
+    }
+  }, [encryptedKey, path, router]);  // Include 'path' and 'router' as dependencies
 
   const closeModal = () => {
     setOpen(false);
@@ -118,3 +119,4 @@ export const PasskeyModal = () => {
     </AlertDialog>
   );
 };
+
