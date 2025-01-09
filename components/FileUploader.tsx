@@ -14,7 +14,7 @@ type FileUploaderProps = {
 export const FileUploader = ({ files, onChange }: FileUploaderProps) => {
   const onDrop = useCallback((acceptedFiles: File[]) => {
     onChange(acceptedFiles);
-  }, []);
+  }, [onChange]);  // Add 'onChange' to the dependency array
 
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
@@ -51,3 +51,4 @@ export const FileUploader = ({ files, onChange }: FileUploaderProps) => {
     </div>
   );
 };
+
