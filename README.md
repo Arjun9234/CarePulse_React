@@ -93,10 +93,12 @@ NEXT_PUBLIC_BUCKET_ID=your_bucket_id
 NEXT_PUBLIC_ADMIN_PASSKEY=your_admin_passkey
 ```
 4. **Run the Project:**
+
    ```
    npm run dev
    ```
-Open http://localhost:3000 to view your project.
+
+Open http://localhost:3000 to view my project.
 
 🛠️ Customization
 UI Design: TailwindCSS utilities for custom styling.
@@ -113,7 +115,7 @@ Admin Panel
 Feel free to reach out for collaboration or feedback!
 
 Email: arjunarora3682@gmail.com
-LinkedIn: Arjun Arora
+LinkedIn: arjun2204
 GitHub: Arjun9234
 
 
