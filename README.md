@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank">
-    <img src="https://github.com/Arjun9234/healthcare/assets/banner-image" alt="Project Banner">
+    <img src="https://github.com/Arjun9234/CarePulse_React/blob/master/public/assets/images/onboarding-img.png" alt="Project Banner">
   </a>
   <br />
   <div>
